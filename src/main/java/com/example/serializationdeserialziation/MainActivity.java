@@ -18,11 +18,9 @@ public class MainActivity extends AppCompatActivity
         Gson gson=new Gson();
 
 
-        /*Students students=new Students("Muaaz","20","muazbutt64@gmail.com");
-        String json= gson.toJson(students);
-         */
 
-        String json= "{\"first_Name\":\"Wajeeh\",\"age\":30,\"mail\":\"wajeehulhassan82@gmail.com\"}";
+
+        String json= "{\"first_Name\":\"Hamda\",\"age\":18,\"mail\":\"hamdaafzal54@gmail.com\"}";
 
         Students students= gson.fromJson(json,Students.class);
 
