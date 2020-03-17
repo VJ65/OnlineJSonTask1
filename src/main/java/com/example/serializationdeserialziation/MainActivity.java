@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity
 
 
 
-        String json= "{\"first_Name\":\"Hamda\",\"age\":18,\"mail\":\"hamdaafzal54@gmail.com\"}";
+        String json= "{\"first_Name\":\"Wajeeh\",\"age\":22,\"mail\":\"wajeehulhassan82@gmail.com\"}";
 
         Students students= gson.fromJson(json,Students.class);
 
